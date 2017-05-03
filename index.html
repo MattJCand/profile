@@ -1,17 +1,36 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Profile MJC</title>
+    <title>Profil MJC</title>
     <!-- Google fonts -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Montserrat:400,700">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Montserrat:400,700">
     <!-- Fontawesome -->
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <!-- Your style -->
     <link rel="stylesheet" href="style.css">
   </head>
   <body>
-  <div class="container">
-      <div class="card-white text-center">
+    <div id="sidebar">
+      <ul>
+        <li>
+          <a href="#summary">
+            <i class="fa fa-info-circle fa-2x"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#favorite-movies">
+            <i class="fa fa-file-video-o fa-2x"></i>
+          </a>
+        </li>
+        <li>
+          <a href="#footer">
+            <i class="fa fa-life-ring fa-2x"></i>
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="container">
+      <div class="card-white text-center" id="summary">
         <img src="images/profil.jpg" alt="Image de profil" class="img-circle shadowed">
         <h1>Mathieu Junes Candiotti</h1>
         <h2>Student @LeWagon</h2>
@@ -26,7 +45,7 @@
         </ul>
       </div>
       <div class="card-white">
-        <h2 class="text-center">My Favorite movies</h2>
+        <h2 class="text-center" id="favorite-movies">My Favorite movies</h2>
         <table>
             <tr>
               <th><img src="images/il-etait-une-fois-en-amerique.jpg" alt="Image film Il était une fois en Amérique" class="picture_movie"></th>
@@ -55,7 +74,7 @@
         </table>
       </div>
       <div class="card-white text-center">
-        <h2>About This Page</h2>
+        <h2 id="footer">About This Page</h2>
         <p id="About">This page has been coded during <a href="https://www.lewagon.com/fr" target="_blank">the FullStack program @LeWagon.</a> That was probably the best experience of my entire life.</p>
         <ul>
           <li><a href="#"><i class="fa fa-share fa-2x" aria-hidden="true"></i></a></li>

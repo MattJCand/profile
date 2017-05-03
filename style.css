@@ -92,21 +92,45 @@ ul > li{
   color: white;
 }
 
+.clear{
+  clear: both;
+}
+
+.less_width{
+  width: 300px;
+}
+
+.more_width{
+  width: 900px;
+}
+
 /*ID*/
 
 #about{
   font-size: 15px;
 }
 
-#sidebar {
-   background-color: #384047;
-   position: fixed;
-   left: 0px;
-   top: 0px;
-   bottom: 0px;
-   width: 120px;
-  text-align: center;
+#wrapper{
+  border: padding: 20px;
+  width: 1000px;
+  margin: 20px auto;
+  border-radius: 2px;
+  background: rgba(175, 175, 175, 0.1);
 }
-#page-content {
-  margin-left: 300px;
+
+#left{
+  width: 35%;
+  float: left;
+  min-height: 600px;
 }
+
+#right{
+  width: 60%;
+  float: right;
+  min-height: 600px;
+}
+
+#footer{
+  position: relative;
+}
+

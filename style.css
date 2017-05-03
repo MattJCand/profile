@@ -97,16 +97,3 @@ ul > li{
 #about{
   font-size: 15px;
 }
-
-#sidebar {
-   background-color: #384047;
-   position: fixed;
-   left: 0px;
-   top: 0px;
-   bottom: 0px;
-   width: 120px;
-  text-align: center;
-}
-#page-content {
-  margin-left: 300px;
-}

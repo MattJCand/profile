@@ -1,0 +1,99 @@
+body{
+  background-color: #EBEBEB;
+}
+
+/*BASE*/
+
+h1{
+  color: #DD5555;
+  font-family: 'Montserrat'
+}
+
+h2{
+  color: #7D7D7D;
+  font-family: 'Open Sans';
+  font-size: 18px;
+  line-height: 24px;
+}
+
+p{
+  font-family: 'Open Sans light';
+  font-size: 15px;
+  line-height: 24px;
+  color: #7D7D7D;
+}
+
+a{
+  text-decoration: none;
+  color: #CCCCCC;
+}
+
+a:hover{
+  color: red;
+}
+
+ul{
+  padding: 0;
+}
+
+ul > li{
+  list-style-type: none;
+  display: inline-block;
+  padding: 25px;
+}
+/*CLASSES*/
+
+.card-white{
+  background: white;
+  padding: 20px;
+  border-radius: 4px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  width: 500px;
+  margin: 20 auto;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.picture_movie{
+  width: 200px;
+}
+
+.title_movie{
+  font-size: 16px;
+}
+
+.text-description{
+  font-size: 15px;
+}
+
+.img-circle{
+  width: 90px;
+  border-radius: 50%;
+  border: 3px solid #CCCCCC;
+}
+
+
+.button-red{
+  color: white;
+  padding: 10px 15px;
+  border-radius: 4px;
+  font-weight: bold;
+  background: #DD5555;
+  transition: background 0.3s ease;
+}
+
+.button-red:hover{
+  opacity: 1;
+  background: #C61414;
+  text-decoration: none;
+  color: white;
+}
+
+/*ID*/
+
+#about{
+  font-size: 15px;
+}
